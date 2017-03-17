@@ -1,0 +1,1 @@
+DelegatingTracker.java is a thread-safe java class because locations are stored in a concurrenthashmap and it is used in polite way which only be doing by a thread-safe get(id) function which just create copy of locations but not directly manipulated
